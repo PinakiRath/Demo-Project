@@ -43,25 +43,25 @@ console.log(a === b)`,
   ],
 };
 
-/** Creating Leader Board*/
+//Creating Leader Board
 const leaderBoard = {
   data: [
     {
-      name: "Ashish",
+      name: "A",
       score: 1,
     },
     {
-      name: "Riya",
+      name: "B",
       score: 3,
     },
     {
-      name: "Jay",
+      name: "C",
       score: 2,
     },
   ],
 };
 
-/** Main Logic */
+// Main Logic
 function playGame(userAnswer, correctAnswer) {
   if (userAnswer === correctAnswer) {
     console.log(kuler("Correct Answer", "#059669"));
