@@ -1,18 +1,17 @@
-# CLI Quiz App (JavaScript)
+# Quizify – CLI Quiz App (JavaScript)
 
-A simple **Command-Line Interface quiz game** built with **Node.js**.  
-It asks questions in the terminal, checks your answers, and shows your score.
+A colorful and interactive **Command-Line Interface quiz game** built with **Node.js**, using `readline-sync` for input and `kuler` for styled output.  
+Test your JavaScript knowledge, see your score, and compare your rank on the leaderboard!
 
 ## 🚀 Features
-- Runs entirely in the terminal (no browser needed)
+- Multiple-choice questions with selectable **a/b/c/d** answers
+- Color-coded output for correct and incorrect answers
+- Leaderboard that ranks you alongside previous high scorers
 - Case-insensitive answer checking
-- Instant feedback on correct/wrong answers
-- Tracks and displays your final score
+- Instant feedback with the correct answer shown if you’re wrong
 
 ## 📦 Requirements
 - [Node.js](https://nodejs.org/) installed on your machine
-
-## 🛠 Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/PinakiRath/cli-quiz-app.git
+- Install dependencies before running:
+  ```bash
+  npm install readline-sync kuler
